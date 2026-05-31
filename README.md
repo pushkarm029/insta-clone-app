@@ -81,6 +81,16 @@ Full Stack Application Will be ***Deployed soon***.
 
 **Note : You need to restart backend server after every change in any .go file.**
 
+## **Project Structure**
+
+```text
+backend/                 Go API server and Firestore handlers
+frontend/                React app, routes, overlays, tests, and Firebase client
+docker-compose.yml       Local Docker composition for frontend and backend
+deployment.yaml          Kubernetes deployment draft for the app
+.github/                 Repository templates and funding metadata
+```
+
 
 ## **❤️ Learnings** :
 
