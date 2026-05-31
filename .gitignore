@@ -1,1 +1,26 @@
 .env
+.env.*
+!.env.example
+*.local
+
+# Firebase Admin credentials
+*service-account*.json
+firebase-adminsdk*.json
+
+# Dependencies
+node_modules/
+
+# Build outputs
+frontend/build/
+backend/main
+backend/app
+
+# Coverage
+coverage/
+frontend/coverage/
+
+# Local tooling
+.DS_Store
+.vscode/
+.idea/
+*.log
