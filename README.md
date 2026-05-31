@@ -29,33 +29,35 @@ Full Stack Application Will be ***Deployed soon***.
 
 ## **🛠️ Local Development** :
 
+### Frontend
+
 1. Open your terminal and then type
     ```shell
-    $ git clone https://github.com/Pushkarm029/insta-clone-app
+    git clone https://github.com/Pushkarm029/insta-clone-app
     ```
 2. cd into the folder
     ```shell
-    $ cd insta-clone-app/
+    cd insta-clone-app/
     ```
 3. cd into the frontend folder
    ```shell
-   $ cd frontend
+   cd frontend
    ```
 4. install the required dependencies for frontend
     ```shell
-    $ npm install
+    npm install
     ```
 5. To start the application on localhost
     ```shell
-    $ npm start
+    npm start
     ```
-6. To Deploy the frontend application on Github Pages
+6. To deploy the frontend application on Github Pages
     ```shell
-    $ npm run deploy
+    npm run deploy
     ```
-7. To Run Tests on Frontend Locally
+7. To run frontend tests locally
     ```shell
-    $ npm run test
+    CI=true npm test -- --watchAll=false
     ```
 8. cd into backend folder
    ```shell
