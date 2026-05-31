@@ -3,7 +3,7 @@
 
 ## **🔥 Introduction**
 
-**Insta-Clone-App** is a web app which can be used to upload posts, explore posts, check your friend's posts etc. It is built using React.js for frontend, Go for backend and Firebase for database. 
+**Insta-Clone-App** is a full-stack social media clone for learning and demonstrating product flows similar to Instagram. It includes authentication, profile pages, post upload, likes, comments, explore/search surfaces, reels, and a Go API backed by Firebase services.
 
 Frontend is deployed using Github Pages ->  
 <a href="https://pushkarm029.github.io/insta-clone-app" target="_blank">pushkarm029.github.io/insta-clone-app</a>
@@ -18,13 +18,14 @@ The original build happened in 2023, with a 2026 refresh focused on documentatio
 Full Stack Application Will be ***Deployed soon***.
 
 ## **💥 Features**
-- It enables users to log in and create an account.
-- User can upload their images in the application.
-- User can visit explore page where user can see the new post of other users.
-- User can visit home page where user can see the all posts of other users whom the current users follow.
-- User can interact with posts by liking & commenting.
-- The User can enjoy Reels.
-- User can deep dive into chill-zone to play some mini-games created by me.
+- Create an account and sign in with Firebase Authentication.
+- Upload image posts with captions.
+- Browse posts from followed users on the home feed.
+- Discover public posts through the explore page.
+- Search users and open profile pages from search results.
+- Like and comment on posts.
+- View reels and a chill-zone section for experimental mini-games.
+- Run a Go backend API with Firebase Firestore and Storage integrations.
 
 ## **🛠️ Local Development** :
 
