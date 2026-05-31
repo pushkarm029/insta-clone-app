@@ -8,6 +8,12 @@
 Frontend is deployed using Github Pages ->  
 <a href="https://pushkarm029.github.io/insta-clone-app" target="_blank">pushkarm029.github.io/insta-clone-app</a>
 
+## **Project Status**
+
+This repository is in active maintenance. The current maintenance focus is keeping the React frontend, Go backend, Firebase integration notes, local development workflow, and test coverage usable for portfolio review and future feature work.
+
+The original build happened in 2023, with a 2026 refresh focused on documentation, local verification, dependency hygiene, and security cleanup.
+
 
 Full Stack Application Will be ***Deployed soon***.
 
