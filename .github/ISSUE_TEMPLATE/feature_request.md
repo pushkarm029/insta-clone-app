@@ -1,20 +1,25 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
+about: Suggest a focused improvement for this project
 title: ''
-labels: ''
+labels: enhancement
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Problem**
+A clear description of the user problem. Example: "I cannot find older posts from the explore page."
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**Proposed solution**
+A clear description of what you want to happen.
 
 **Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+A clear description of any alternative solutions or features you considered.
+
+**Acceptance criteria**
+- [ ] The expected behavior is visible to users.
+- [ ] The change works locally.
+- [ ] Documentation or tests are updated when needed.
 
 **Additional context**
 Add any other context or screenshots about the feature request here.
