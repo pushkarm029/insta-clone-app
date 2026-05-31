@@ -6,8 +6,12 @@ All notable maintenance changes are tracked in this file.
 
 - Refreshed README status, setup, and project structure.
 - Added architecture, Firebase, environment, Docker, and troubleshooting documentation.
-- Added local maintenance documentation for contributors and reviewers.
-- Planned local validation, test coverage, and security cleanup work.
+- Added maintenance, contribution, security, testing, and release docs.
+- Added frontend smoke/config/auth/navigation coverage.
+- Added backend route and handler validation tests.
+- Added local validation scripts, Make targets, and environment examples.
+- Removed embedded backend Firebase Admin credentials in favor of runtime environment configuration.
+- Hardened local proxy and Docker runtime behavior.
 
 ## 0.1.0 - 2023-2024
 

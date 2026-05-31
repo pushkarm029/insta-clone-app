@@ -1,12 +1,7 @@
 name: Running React Frontend Tests
 
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
+  workflow_dispatch:
 
 defaults:
   run:

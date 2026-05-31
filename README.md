@@ -91,6 +91,17 @@ deployment.yaml          Kubernetes deployment draft for the app
 .github/                 Repository templates and funding metadata
 ```
 
+## **Documentation**
+
+- [Architecture](docs/architecture.md)
+- [Firebase setup](docs/firebase.md)
+- [Environment variables](docs/environment.md)
+- [Docker usage](docs/docker.md)
+- [Testing guide](docs/testing.md)
+- [Troubleshooting](docs/troubleshooting.md)
+- [Roadmap](ROADMAP.md)
+- [Changelog](CHANGELOG.md)
+
 
 ## **❤️ Learnings** :
 

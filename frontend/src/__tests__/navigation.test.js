@@ -2,11 +2,13 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import '@testing-library/jest-dom';
-import Navigation from '../navigation/App';
 
 jest.mock('react-responsive', () => ({
-  useMediaQuery: jest.fn(() => true),
+  __esModule: true,
+  useMediaQuery: () => true,
 }));
+
+import Navigation from '../navigation/App';
 
 test('renders primary navigation links on desktop', () => {
   render(<Navigation />, { wrapper: BrowserRouter });
