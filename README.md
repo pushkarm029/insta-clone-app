@@ -59,17 +59,24 @@ Full Stack Application Will be ***Deployed soon***.
     ```shell
     CI=true npm test -- --watchAll=false
     ```
+### Backend
+
 8. cd into backend folder
    ```shell
    cd ../backend
    ```
-9. install the required dependencies for backend
+9. Download backend dependencies
    ```shell
-   go get -u ./...
+   go mod download
    ```
 10. Start the server on :8080
     ```shell
     go run main.go
+    ```
+11. Run backend checks locally
+    ```shell
+    go test ./...
+    gofmt -w .
     ```
 
 **Note : You need to restart backend server after every change in any .go file.**
